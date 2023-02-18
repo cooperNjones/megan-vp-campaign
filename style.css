@@ -100,6 +100,7 @@ a{
 .top{
     text-align: center;
     color: white;
+    margin-bottom: 150px;
 }
 
 .content{
@@ -108,7 +109,7 @@ a{
 }
 
 .head-background{
-    background-image: linear-gradient(#ffd06a, #ffa5fa);
+    background-image: linear-gradient(#ffd06a, #f7b843);
     padding: 3%;
     border-radius: 10px;
 }
