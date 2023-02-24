@@ -109,6 +109,12 @@ a{
     padding: 2%;
 }
 
+.white{
+    color: white;
+    text-align: center;
+    margin-top: 50vh;
+}
+
 .back{
     padding-bottom: 4%;
 }
