@@ -19,8 +19,6 @@ body{
   margin-left: auto;
   margin-right: auto;
   margin-top: 10%;
-  border: 20px solid white;
-  border-radius: 10px;
 }
 
 button{
@@ -80,6 +78,7 @@ a{
     margin-left: auto;
     margin-right: auto;
     transition: all 0.3s ease-in-out;
+    font-size: .8rem;
 }
 
 .cta:hover{
@@ -101,11 +100,17 @@ a{
     text-align: center;
     color: white;
     margin-bottom: 50px;
+    font-size: .7rem;
+    background-color: #5adce6;
 }
 
 .content{
-    background-color: #ee94fa;
+    background-image: linear-gradient(#ee94fa, #b912cf);
     padding: 2%;
+}
+
+.back{
+    padding-bottom: 4%;
 }
 
 .head-background{
@@ -124,6 +129,14 @@ a{
     justify-content: center;
     color: white;
 }
+
+.wrapper{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
 
 @keyframes animate{
     0%{ background-position: 0%;}
